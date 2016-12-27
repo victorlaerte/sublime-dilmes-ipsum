@@ -3,24 +3,24 @@
   {
     "caption": "DilmesIpsum: 1 perola",
     "command": "dilmes_ipsum",
-    "args": {"qty": 1 }
+    "args": {"qty": 1 , "person:'dilma'"}}
   },
 
   {
     "caption": "DilmesIpsum: 2 perolas",
     "command": "dilmes_ipsum",
-    "args": {"qty": 2 }
+    "args": {"qty": 2 , "person:'dilma'"}}
   },
 
   {
     "caption": "DilmesIpsum: 4 perolas",
     "command": "dilmes_ipsum",
-    "args": {"qty": 4 }
+    "args": {"qty": 4 , "person:'dilma'"}}
   },
 
   {
     "caption": "DilmesIpsum: discurso completo",
     "command": "dilmes_ipsum",
-    "args": {"qty": 8 }
+    "args": {"qty": 8 , "person:'dilma'"}}
   }
 ]

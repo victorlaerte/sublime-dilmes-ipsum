@@ -8,14 +8,15 @@ import re
 class DilmesIpsumCommand(sublime_plugin.TextCommand):
 
     s1 = "dilma"
-    s2 = "dilmes"
+    s2 = "trump"
 
-    def run(self, edit, qty=1):
+    def run(self, edit, qty=1, person='dilma'):
 
+        #sel() returns an iterable RegionSet
         selections = self.view.sel()
         for selection in selections:
 
-            phrases = [u"Eu, para ir, eu faço uma escala. Para voltar, eu faço duas, para voltar para o Brasil. Neste caso agora nós tínhamos uma discussão. Eu tinha que sair de Zurique, podia ir para Boston, ou pra Boston, até porque... vocês vão perguntar, mas é mais longe? Não é não, a Terra é curva, viu?",
+            personality = {'dilma' : [u"Eu, para ir, eu faço uma escala. Para voltar, eu faço duas, para voltar para o Brasil. Neste caso agora nós tínhamos uma discussão. Eu tinha que sair de Zurique, podia ir para Boston, ou pra Boston, até porque... vocês vão perguntar, mas é mais longe? Não é não, a Terra é curva, viu?",
                         u"É interessante que muitas vezes no Brasil, você é, como diz o povo brasileiro, muitas vezes você é criticado por ter o cachorro e, outras vezes, por não ter o mesmo cachorro. Esta é uma crítica interessante que acontece no Brasil",
                         u"E nós criamos um programa que eu queria falar para vocês, que é o Ciência sem Fronteiras. Por que eu queria falar do Ciência sem Fronteiras para vocês? É que em todas as demais... porque nós vamos fazer agora o Ciência sem Fronteiras 2. O 1 é o 100 000, mas vai ter de continuar fazendo Ciência sem Fronteiras no Brasil",
                         u"Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?",
@@ -26,10 +27,12 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
                         u"No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.",
                         u"A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo!",
                         u"Ai você fala o seguinte: \"- Mas vocês acabaram isso?\" Vou te falar: -\"Não, está em andamento!\" Tem obras que \"vai\" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós \"podêmo fazê\"? 11, 12, 13, 14... Por que é que não?"
-                        u"Eu queria destacar uma questão, que é uma questão que está afetando o Brasil inteiro, que é a questão da vigilância sanitária: gente, é o vírus Aedes aegypti, com as suas diferentes modalidades: chikungunya, zika vírus."];
+                        u"Eu queria destacar uma questão, que é uma questão que está afetando o Brasil inteiro, que é a questão da vigilância sanitária: gente, é o vírus Aedes aegypti, com as suas diferentes modalidades: chikungunya, zika vírus."],
+                        'trump' : [u"teste", u"teste2"]};
 
             text = "";
             chose = []
+            phrases = personality[person];
 
             from random import randint
             for i in list(range(0, qty)):
@@ -48,7 +51,7 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
             if self.view.substr(r1).lower() == 'dilma':
                 self.view.erase(edit, r1)
                 selection = sublime.Region(r1.begin())
-            elif self.view.substr(r2).lower() == 'dilmes':
+            elif self.view.substr(r2).lower() == 'trump':
                 self.view.erase(edit, r2)
                 selection = sublime.Region(r2.begin())
             else:
