@@ -1,48 +1,48 @@
 [
 
   {
-    "caption": "DilmesIpsum: 1 perola",
+    "caption": "DilmesIpsum: 1 dumb phrase",
     "command": "dilmes_ipsum",
     "args": {"qty": 1 , "person":"dilma"}}
   },
 
   {
-    "caption": "DilmesIpsum: 2 perolas",
+    "caption": "DilmesIpsum: 2 dumb phrases",
     "command": "dilmes_ipsum",
     "args": {"qty": 2 , "person":"dilma"}}
   },
 
   {
-    "caption": "DilmesIpsum: 4 perolas",
+    "caption": "DilmesIpsum: 4 dumb phrases",
     "command": "dilmes_ipsum",
     "args": {"qty": 4 , "person":"dilma"}}
   },
 
   {
-    "caption": "DilmesIpsum: discurso completo",
+    "caption": "DilmesIpsum: complete speech",
     "command": "dilmes_ipsum",
     "args": {"qty": 8 , "person":"dilma"}}
   },
   {
-    "caption": "TrumpIpsum: 1 perola",
+    "caption": "TrumpIpsum: 1 dumb phrase",
     "command": "dilmes_ipsum",
     "args": {"qty": 1 , "person":"trump"}}
   },
 
   {
-    "caption": "TrumpIpsum: 2 perolas",
+    "caption": "TrumpIpsum: 2 dumb phrases",
     "command": "dilmes_ipsum",
     "args": {"qty": 2 , "person":"trump"}}
   },
 
   {
-    "caption": "TrumpIpsum: 4 perolas",
+    "caption": "TrumpIpsum: 4 dumb phrases",
     "command": "dilmes_ipsum",
     "args": {"qty": 4 , "person":"trump"}}
   },
 
   {
-    "caption": "TrumpIpsum: discurso completo",
+    "caption": "TrumpIpsum: complete speech",
     "command": "dilmes_ipsum",
     "args": {"qty": 8 , "person":"trump"}}
   }

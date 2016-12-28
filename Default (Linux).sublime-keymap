@@ -8,7 +8,7 @@
 	 },
  	{ "keys": ["alt+shift+t"], "command": "dilmes_ipsum", "args":{"qty":1, "person":"trump"}},
 
-	{ "keys": ["tab"], "command": "dilmes_ipsum",  "args":{"qty":1, "person":"trump"}, "context": 
+	{ "keys": ["tab"], "command": "dilmes_ipsum", "args":{"qty":1, "person":"trump"}, "context": 
 	 	[
 	 		 { "key": "preceding_text", "operator": "regex_contains", "operand": ".*\\b(trump)$", "match_all": true }
 	 	]

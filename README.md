@@ -39,6 +39,10 @@ Report bugs here, and I will do my best to repair them (or better still - make t
 
 If you are interested in Atom's version checkout this [plugin](https://github.com/thiagoh/atom-dilmes-ipsum)
 
+## Visual Studio Code version
+
+Coming soon.
+
 ## Team
 
 | Author (and Idealizer) | Contributor (TrumpIpsum) | Contributor (Github's Page) |
