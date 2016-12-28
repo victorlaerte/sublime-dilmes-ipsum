@@ -11,7 +11,6 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
     s2 = "dilmes"
     s3 = "trump"
 
-
     def run(self, edit, qty=1, person="dilma"):
 
         #sel() returns an iterable RegionSet
@@ -32,7 +31,7 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
                         u"Eu queria destacar uma questão, que é uma questão que está afetando o Brasil inteiro, que é a questão da vigilância sanitária: gente, é o vírus Aedes aegypti, com as suas diferentes modalidades: chikungunya, zika vírus."];
 
             trumpPhrases = [u"You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
-                        u"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive,",
+                        u"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
                         u"Listen you mother fuckers, we're going to tax you 25 percent!",
                         u"When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
                         u"The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
