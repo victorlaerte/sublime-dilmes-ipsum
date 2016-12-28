@@ -39,6 +39,13 @@ Report bugs here, and I will do my best to repair them (or better still - make t
 
 If you are interested in Atom's version checkout this [plugin](https://github.com/thiagoh/atom-dilmes-ipsum)
 
+## Team
+
+| Author (and Idealizer) | Contributor (TrumpIpsum) | Contributor (Github's Page) |
+|:-:|:-:|:-:|
+| [![Thiago Andrade](https://avatars2.githubusercontent.com/u/110336?s=70)](https://github.com/thiagoh) | [![Victor Laerte](https://avatars0.githubusercontent.com/u/7623098?s=70)](https://github.com/victorlaerte) | [![Adriano Interaminense](https://avatars2.githubusercontent.com/u/12699849?s=70)](https://github.com/interaminense) |
+| [Thiago Andrade](https://github.com/thiagoh) | [Victor Laerte](http://www.victorlaerte.com) | [Adriano Interaminse](https://github.com/interaminense) |
+
 ---
 
 If you have some problems or improvements with it, contact me via GitHub.
